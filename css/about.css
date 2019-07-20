@@ -59,7 +59,6 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
-margin-top: 20px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -67,10 +66,104 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container  {
     width: 800px;
     margin: 0 auto;
+    border: 5px solid blue;
+    border-width: 5px;
 }
+
+/******** WHAT I ADDED ****/
+
+.Navigation {
+	
+    width:100%;
+    border: 4px solid red;
+
+}
+.topheader {
+	
+	display: flex;
+    border: 4px solid red;
+	
+}
+.logo1 {
+	
+	display: flex;
+	flex-direction:row;
+    margin-top: 35px;
+    border: 10px solid red;
+}
+
+header nav {
+    
+	margin-top: 52px; 
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+    padding-top: 1.5%
+    
+  }
+  
+  header nav a {
+	
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+	 }
+
+
+
+/*********/
+
+
+
+     .middle-content {
+        margin-bottom: 20px;
+        border: 4px solid red;
+    }
+    
+    .middle-content h2 {
+        padding: 0 2%;
+        margin-bottom: 0;
+        border: 4px solid red;
+    }
+    
+    .middle-content .boxes {
+        border: 4px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .middle-content .boxes .box  {
+        border: 4px solid red;
+        width: 12.5%;
+        color: white;
+        height: 80px;
+        margin: 30px 2.5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+  .WorkTogether {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border: 20px solid red;
+  }
+
+
+
+
+
 
 /******* what i added ****/
 .Navigation {
@@ -88,7 +181,8 @@ p {
 	
 	display: flex;
 	flex-direction:row;
-	margin-top: 35px;
+    margin-top: 35px;
+    border: 4px solid red;
 }
 
 header nav {
@@ -97,20 +191,20 @@ header nav {
 	flex-direction:row;
 	justify-content: space-around;
 	flex-wrap: nowrap;
-    padding-top: 1.5%
-    
-	
+	padding-top: 1.5%
+   
   }
   
   header nav a {
-	
+    border: 4px solid red;
 	font-size: 15px;
 	color: black;
 	text-decoration: none;
   }
   
   header nav a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
+    border: 4px solid red;
 	 }
 
 
@@ -121,9 +215,16 @@ header nav {
         justify-content: center;
         align-items: stretch;
         margin-top: 50px;
-        
+        border: 4px solid red;
          }
 
+
+
+.aboutus {
+    margin-top: 50px;
+    border: 4px solid red;
+    
+}
  
 
 
@@ -136,100 +237,42 @@ header nav {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border: 3px solid red;
     margin-top: 20px;
 }
 
-.top-content .text-container {
+.top-content .container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    border: 4px solid red;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    
-}
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box  {
-    width: 12.5%;
-    color: white;
-    height: 100px;
-    margin: 20px 2.5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/**** BOX COLORS *****/
-
-.box1{
-    background: teal;
-}
-
-.box2{
-    background: gold;
-}
-
-.box3{
-    background: cadetblue;
-}
-
-.box4{
-    background: coral;
-}
-.box5{
-    background: crimson;
-}
-.box6{
-    background: forestgreen;
-}
-.box7{
-    background: darkorchid;
-}
-.box8{
-    background: hotpink;
-}
-.box9{
-    background: indigo;
-}
-.box10{
-    background: dodgerblue;
-}
-
-/**** BOX COLORS *****/
 
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
-    
+    border: 4px solid red;
 }
 
-.bottom-content .text-container {
+.bottom-content .container {
     padding-right: 4%;
+    border: 4px solid red;
 }
 
-.bottom-content .text-container:last-child {
+.bottom-content .container:last-child {
     padding-right: 0;
+    border: 4px solid red;
 }
 
 footer {
     width: 100%;
     background: black;
+    border: 4px solid red;
 }
 
 footer nav {
@@ -238,49 +281,12 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 12px;
+    font-size: 14px;
+    border: 4px solid red;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
-    
+    border: 4px solid red;
 }
-
-
-.MAIN {
-	display: flex;
-	flex-wrap: wrap;
-	width:100%;
-    justify-content: space-around;
-    margin-top: 50px;
-    border-top:1px dashed black;
-    
-    
-  }
-
-
-.TEXTbox {
-	width:48%;
-	margin:auto;
-    margin-top:40px;
-    margin-bottom: 40px;
-    padding:5px 5px 20px 5px;
-    border-bottom:1px dashed black;
-
-    
-    }
-
-    .aboutus {
-        margin-top: 40px;
-    }
-
-    .button {
-        border: 3px solid red;
-    }
-
-    .WorkTogether {
-        margin-bottom: 40px
-
-        
-    }
